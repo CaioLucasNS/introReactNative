@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Caio",
+      "age": 26,
+      "stack": "React Native | React JS"
+    },
+    {
+      "id": 2,
+      "name": "Lucas",
+      "age": 12,
+      "stack": "Angular"
+    },
+    {
+      "id": 3,
+      "name": "Luana",
+      "age": 33,
+      "stack": "Vue"
+    },
+    {
+      "id": 4,
+      "name": "Victória",
+      "age": 14,
+      "stack": "Next JS"
+    }
+  ]
+}

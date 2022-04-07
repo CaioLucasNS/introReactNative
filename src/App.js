@@ -1,14 +1,26 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import EmployeeData from './components/EmployeeData/EmployeeData';
+// import employeesList from './utils/mock.json';
 
 const App = () => {
+  // const renderEmployees = () =>
+  //   employeesList.data.map(employee => {
+  //     return (
+  //       <EmployeeData
+  //         key={employee.id}
+  //         name={employee.name}
+  //         age={employee.age}
+  //         stack={employee.stack}
+  //       />
+  //     );
+  //   });
+
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Accenture - React Native</Text>
-      <EmployeeData name="caio" age={25} stack="react native" />
-      <EmployeeData name="lucas" age={12} />
-      <EmployeeData name="caio" age={25} stack="react native" />
+      {/* {renderEmployees()} */}
+      <EmployeeData name="Caio" age={26} stack="React Native" />
     </View>
   );
 };
